@@ -24,7 +24,7 @@ public class StoryActivity extends AppCompatActivity
 
     /** URL for stories from Guardian API */
     private static final String GUARDIAN_REQUEST_URL =
-            "http://content.guardianapis.com/search?q=debates&api-key=test";
+            "http://content.guardianapis.com/search?q=debates&show-tags=contributor&api-key=test";
 
     /**
      * Constant value for the story loader ID. We can choose any integer.
